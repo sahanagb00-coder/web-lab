@@ -1,0 +1,110 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header style */
+header {
+  background: #004aad;
+  padding: 15px 40px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;  /* Nav goes right */
+  align-items: center;
+  color: white;
+}
+
+/* Center logo */
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* Main content (Home page background) */
+
+main.home {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffe6e6; /* Light pink background */
+}
+.intro h2 {
+  font-size: 28px;
+}
+
+.intro p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #004aad;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #003080;
+}
+/* Next button below resume */
+.next-section {
+  margin-top: 30px;
+}
+
+.next-btn {
+  background: #28a745; /* Green button */
+  padding: 12px 24px;
+  display: inline-block;
+}
+
+.next-btn:hover {
+  background: #1e7e34;
+}
+/* Footer */
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 12px 12px 0 0;
+}
